@@ -1,6 +1,6 @@
 baseURL = "https://lettherebebright.netlify.com"
 disableLanguages = []
-disqusShortname = "educenter"
+disqusShortname = "bright"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
@@ -28,12 +28,6 @@ name = "notice"
 [[menu.footer]]
 URL = "event"
 name = "event"
-[[menu.footer]]
-URL = "scholarship"
-name = "scholarship"
-[[menu.footer]]
-URL = "research"
-name = "research"
 [[menu.main]]
 URL = "about"
 name = "About"
@@ -59,14 +53,6 @@ URL = "event"
 name = "event"
 parent = "Pages"
 [[menu.main]]
-URL = "scholarship"
-name = "scholarship"
-parent = "Pages"
-[[menu.main]]
-URL = "research"
-name = "research"
-parent = "Pages"
-[[menu.main]]
 URL = "blog"
 name = "blog"
 weight = 4
@@ -75,17 +61,17 @@ URL = "contact"
 name = "Contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
-author = "Chinkle"
+address = "Quezon City"
+author = "Chinkle Gutierrez"
 contact_form_action = "#"
-description = "This is meta description"
-email = "info@educenter.com"
+description = "Tutorial Services"
+email = "chinkleliz@gmail.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
+mobile = "+639177960930"
 top_header = true
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -116,7 +102,7 @@ link = "plugins/google-map/gmap.js"
 enable = true
 preloader = "images/preloader.gif"
 [params.subscription]
-enable = true
+enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
@@ -124,17 +110,9 @@ icon = "ti-facebook"
 link = "#"
 title = "facebook"
 [[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-title = "twitter"
-[[params.social]]
 icon = "ti-instagram"
 link = "#"
 title = "instagram"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-title = "github"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
