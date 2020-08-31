@@ -76,7 +76,7 @@ name = "Contact"
 weight = 5
 [params]
 address = "9567 Turner Trace Apt. BC C3G8A4"
-author = "Themefisher"
+author = "Chinkle"
 contact_form_action = "#"
 description = "This is meta description"
 email = "info@educenter.com"
